@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class login extends AppCompatActivity {
+public class login_as_user extends AppCompatActivity {
 
     TextView signup;
 
@@ -21,7 +21,7 @@ public class login extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent loginIntent = new Intent(login.this,signup.class);
+                Intent loginIntent = new Intent(login_as_user.this, signup_as_user.class);
                 startActivity(loginIntent);
             }
         });
