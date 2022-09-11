@@ -5,15 +5,15 @@
 
     <group  android:checkableBehavior="single">
 
-        <item android:id="@+id/frg1"
+        <item android:id="@+id/busInfo"
             android:title="Bus Info"
             android:icon="@drawable/ic_bus_info"
             ></item>
-        <item android:id="@+id/frg2"
+        <item android:id="@+id/businventore"
             android:title="Bus inventory update"
             android:icon="@drawable/ic_update"
             ></item>
-        <item android:id="@+id/frg3"
+        <item android:id="@+id/updateTransport"
             android:title="Update transport demands"
             android:icon="@drawable/ic_data"
             ></item>

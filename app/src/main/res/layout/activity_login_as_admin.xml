@@ -86,7 +86,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-
+            android:id="@+id/loginAsAdminBtn"
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:backgroundTint="#51459e"
