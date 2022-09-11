@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login_as_user"
+    tools:context=".Admin.login_as_user"
     android:weightSum="5"
     android:orientation="vertical"
     android:background="@color/white"
@@ -130,7 +130,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-
+            android:id="@+id/signbtn"
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:backgroundTint="#51459e"

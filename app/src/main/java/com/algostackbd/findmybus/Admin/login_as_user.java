@@ -1,4 +1,4 @@
-package com.algostackbd.findmybus;
+package com.algostackbd.findmybus.Admin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.algostackbd.findmybus.R;
 
 public class login_as_user extends AppCompatActivity {
 
