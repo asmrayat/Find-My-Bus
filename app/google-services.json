@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "881783650991",
+    "project_id": "findmybus-a1127",
+    "storage_bucket": "findmybus-a1127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881783650991:android:2e32ba918d70cc5525325a",
+        "android_client_info": {
+          "package_name": "com.algostackbd.findmybus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881783650991-2c2abdfhisgcoihnolkknr1ikksk1q80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNaW0P0_LBWqaKQ6coN_oy7Dxit1PpvOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881783650991-2c2abdfhisgcoihnolkknr1ikksk1q80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
