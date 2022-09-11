@@ -22,7 +22,7 @@
             android:textSize="40dp"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:text="Consumer"
+            android:text="Admin Panel"
             ></TextView>
     </LinearLayout>
 
@@ -76,6 +76,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/codeNameUpdate"
+                android:textColor="@color/black"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/capacityup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:hint="Capacity"
+            android:gravity="center"
+            app:hintTextColor="#51459e"
+            app:boxStrokeColor="@color/black"
+            android:textColorHint="@color/black"
+            app:boxBackgroundColor="@color/white"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Capacityupdate"
                 android:textColor="@color/black"
                 android:inputType="text"
                 />

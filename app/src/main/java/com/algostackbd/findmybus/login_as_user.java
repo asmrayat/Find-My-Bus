@@ -55,7 +55,7 @@ public class login_as_user extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()) {
                                         // Sign in success, update UI with the signed-in user's information
-                                        Intent myIntent = new Intent(login_as_user.this, signup_as_admin.class);
+                                        Intent myIntent = new Intent(login_as_user.this, MainActivity.class);
                                         startActivity(myIntent);
                                         con_passfield.setText("");
                                         con_userfield.setText("");

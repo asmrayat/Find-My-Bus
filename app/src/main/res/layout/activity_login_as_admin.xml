@@ -35,7 +35,7 @@
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/txtusername"
+            android:id="@+id/adtxtusername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="150dp"
@@ -53,14 +53,14 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/txtuser"
+                android:id="@+id/adtxtuser"
                 android:textColor="@color/black"
                 android:inputType="text"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/txtpassword"
+            android:id="@+id/adtxtpassword"
             app:endIconMode="password_toggle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/txtpass"
+                android:id="@+id/adtxtpass"
                 android:textColor="@color/black"
                 android:inputType="textPassword"
                 />

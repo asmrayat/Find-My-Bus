@@ -5,8 +5,6 @@
       <map>
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/drawable/ic_info.xml" value="0.153" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/drawable/login_header.xml" value="0.153" />
-        <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/drawable/search_view_bg.xml" value="0.153" />
-        <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/Bus inventory update.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_demo_welcome.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_login.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_login_as_admin.xml" value="0.18206521739130435" />
@@ -15,15 +13,19 @@
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_signup.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_signup_as_admin.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_signup_as_user.xml" value="0.18206521739130435" />
-        <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/bus_information.xml" value="0.18206521739130435" />
-        <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/bus_inventory_update.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/drop_down_item.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/nav_head.xml" value="0.18206521739130435" />
-        <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/update_transport_demands.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/menu/menu.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_demo_welcome.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/activity_login_as_admin.xml" value="0.2078125" />
         <entry key="app/src/main/res/layout/activity_login_as_user.xml" value="0.2078125" />
-        <entry key="app/src/main/res/layout/activity_signup_as_admin.xml" value="0.2078125" />
-        <entry key="app/src/main/res/layout/activity_signup_as_user.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/activity_signup_as_admin.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_signup_as_user.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_transpost_demands.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/bus_information.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/bus_inventory_update.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/nav_head.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/update_transport_demands.xml" value="0.2078125" />
       </map>
     </option>
   </component>
