@@ -16,6 +16,9 @@
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/drop_down_item.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/nav_head.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/menu/menu.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_login_as_user.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/activity_signup_as_admin.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/activity_signup_as_user.xml" value="0.2078125" />
       </map>
     </option>
   </component>
