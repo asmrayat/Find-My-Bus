@@ -22,7 +22,7 @@
             android:textSize="40dp"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:text="Consumer"
+            android:text="Admin"
             ></TextView>
     </LinearLayout>
 

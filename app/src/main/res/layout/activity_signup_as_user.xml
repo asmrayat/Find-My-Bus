@@ -166,13 +166,14 @@
             <AutoCompleteTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/selectRoles"
+                android:id="@+id/selectPart"
                 android:inputType="none"
                 android:textColor="@color/black"
                 >
 
             </AutoCompleteTextView>
         </com.google.android.material.textfield.TextInputLayout>
+
 
 
         <Button
@@ -184,7 +185,7 @@
             android:textStyle="bold"
             android:textColor="#ffffff"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             />
         <LinearLayout
             android:layout_width="match_parent"

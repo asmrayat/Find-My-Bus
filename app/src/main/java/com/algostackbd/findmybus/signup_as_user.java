@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Patterns;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,6 +24,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.regex.Pattern;
 
 public class signup_as_user extends AppCompatActivity {
+    String[] type = new String[]{"Student ","Teacher ","Stuff"};
 
     TextView login;
     private FirebaseAuth mAuth;
@@ -34,9 +37,30 @@ public class signup_as_user extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        ArrayAdapter<String> adapter = new ArrayAdapter<>(
+//                this,
+//                R.layout.drop_down_item,
+//                type
+//        );
+//        AutoCompleteTextView autoCompleteTextView= findViewById(R.id.selectPart);
+//        autoCompleteTextView.setAdapter(adapter);
+
+
+
+
         mAuth = FirebaseAuth.getInstance();
         setContentView(R.layout.activity_signup_as_user);
         login = findViewById(R.id.loginTxt);
+
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotoLogin = new Intent(signup_as_user.this,login_as_user.class);
+                startActivity(gotoLogin
+
+                );
+            }
+        });
 
 
         email = (TextInputLayout) findViewById(R.id.emailForUser);

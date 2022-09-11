@@ -1,18 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#51459e"
+    tools:context=".login_as_user"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:background="@color/white"
     >
 
-    <TextView
+
+
+    <LinearLayout
+        android:background="@drawable/login_header"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Admin"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Update transport demands"
-        android:gravity="center"
-        android:textSize="40dp"
-        >
+        android:orientation="vertical">
 
-    </TextView>
 
-</RelativeLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:boxStrokeColor="@color/black"
+            android:textColorHint="@color/black"
+            app:hintTextColor="#124c7e"
+            app:endIconTint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:hint="Select Consumer"
+            app:boxBackgroundColor="@color/white"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+            >
+
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/selectConsumer"
+                android:inputType="none"
+                android:textColor="@color/black"
+                >
+
+            </AutoCompleteTextView>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/fullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:hint="Route"
+
+            app:hintTextColor="#51459e"
+            app:boxStrokeColor="@color/black"
+            android:textColorHint="@color/black"
+            app:boxBackgroundColor="@color/white"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:inputType="number"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/IdNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:hint="Time"
+            app:hintTextColor="#51459e"
+            app:boxStrokeColor="@color/black"
+            android:textColorHint="@color/black"
+            app:boxBackgroundColor="@color/white"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:inputType="time"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/updateInfo"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#51459e"
+            android:text="update"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

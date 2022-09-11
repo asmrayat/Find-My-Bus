@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.frg_cnt,new bus_trans_demand()).commit();
                 break;
             case R.id.logout:
-                Intent myIntent = new Intent(MainActivity.this, demoWelcome.class);
+                Intent myIntent = new Intent(MainActivity.this, Adcon.class);
                 startActivity(myIntent);
                 finishAffinity();
                 break;
