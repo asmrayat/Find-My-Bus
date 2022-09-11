@@ -14,7 +14,7 @@ public class login_as_user extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_login_as_user);
 
         signup = findViewById(R.id.signupTxt);
 
