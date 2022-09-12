@@ -12,7 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 public class bus_trans_demand extends Fragment {
-    String[] type1 = new String[]{"Teacher ","Student ","Stuff ","Others"};
+
 
     @Nullable
     @Override
@@ -23,6 +23,7 @@ public class bus_trans_demand extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        String[] type1 = new String[]{"Teacher ","Student ","Stuff ","Others"};
 
         ArrayAdapter<String> adapter1 = new ArrayAdapter<>(
                 getActivity(),

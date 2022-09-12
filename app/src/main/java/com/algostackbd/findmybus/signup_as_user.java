@@ -24,7 +24,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.regex.Pattern;
 
 public class signup_as_user extends AppCompatActivity {
-    String[] type = new String[]{"Student ","Teacher ","Stuff"};
+
 
     TextView login;
     private FirebaseAuth mAuth;
@@ -34,20 +34,10 @@ public class signup_as_user extends AppCompatActivity {
     Button signbtn;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        ArrayAdapter<String> adapter = new ArrayAdapter<>(
-//                this,
-//                R.layout.drop_down_item,
-//                type
-//        );
-//        AutoCompleteTextView autoCompleteTextView= findViewById(R.id.selectPart);
-//        autoCompleteTextView.setAdapter(adapter);
-
-
-
-
         mAuth = FirebaseAuth.getInstance();
         setContentView(R.layout.activity_signup_as_user);
         login = findViewById(R.id.loginTxt);
@@ -69,6 +59,15 @@ public class signup_as_user extends AppCompatActivity {
         id_number = (TextInputLayout) findViewById(R.id.IdNumber);
         contact_number = (TextInputLayout) findViewById(R.id.ContactNumber);
         signbtn = (Button) findViewById(R.id.signbtn);
+        String[] type = new String[]{"Student ","Teacher ","Stuff"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(
+                this,
+                R.layout.drop_down_item,
+                type
+        );
+        AutoCompleteTextView autoCompleteTextView= findViewById(R.id.selectPart);
+        autoCompleteTextView.setAdapter(adapter);
+
         signbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
