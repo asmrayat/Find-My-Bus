@@ -13,6 +13,7 @@
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_login_as_admin.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_login_as_user.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_main.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_main2.xml" value="0.176" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_signup.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_signup_as_admin.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/activity_signup_as_user.xml" value="0.18206521739130435" />
@@ -21,8 +22,12 @@
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/bus_inventory_update.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/drop_down_item.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/nav_head.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/nav_head2.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/pickup point.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/layout/update_transport_demands.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/menu/menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/menu/menu2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/asmra/AndroidStudioProjects/FindMyBus2/app/src/main/res/menu/searchmenu.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>
